@@ -1,7 +1,7 @@
 ---
 date: 			2022-10-11 00:00:00
-title: 			"Welcome back to mistakes!"
-subtitle: 		"They weren't gone for long..."
+title: 			"Welcome back mistakes!"
+subtitle: 		"You weren't gone for long..."
 ---
 
 Did you grind your butt off doing all the objectives in FIFA 22 just so you would get some free stuff in FIFA 23? Well, you might have noticed that your hard-earned packs did not contain any special cards. Rest assured that EA is on the case because it's due of another EA mistake. The people affected have since been notified in-game and should have received their correct items.
