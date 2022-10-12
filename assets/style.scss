@@ -13,7 +13,23 @@
 /* BASE RULES */
 /**************/
 
-@import url('https://fonts.googleapis.com/css?family=Anaheim');
+@font-face {
+  font-family: 'Neue Plak';
+  src: url('fonts/NeuePlak-Regular.woff2') format('woff2'),
+      url('fonts/NeuePlak-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Plak Wide Extra';
+  src: url('fonts/NeuePlak-WideExtraBlack.woff2') format('woff2'),
+      url('fonts/NeuePlak-WideExtraBlack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 html {
   font-size: 100%;
@@ -21,6 +37,7 @@ html {
 }
 
 body {
+  // #1c1f26
   background: $white;
   font-family: $anaheim;
   color: $black;
