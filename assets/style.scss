@@ -23,6 +23,15 @@
 }
 
 @font-face {
+  font-family: 'Neue Plak';
+  src: url('NeuePlak-Bold.woff2') format('woff2'),
+      url('NeuePlak-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Neue Plak Wide Extra';
   src: url('fonts/NeuePlak-WideExtraBlack.woff2') format('woff2'),
       url('fonts/NeuePlak-WideExtraBlack.woff') format('woff');
@@ -36,9 +45,16 @@ html {
   height: 100%;
 }
 
+.reachout {
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
 body {
   background-color: $ea-beige;
   background-image: url('images/bg.jpg');
+  background-attachment: fixed;
   background-size: cover;
   font-family: $neue;
   color: $ea-black;
@@ -86,7 +102,7 @@ h2 {
 	    content: "";
 	    display: inline-block;
 	    vertical-align: middle;
-	    width: 46px;
+	    width: 24px;
 	    height: 1px;
 	    background: $lightGray;
 	    margin: 0px 30px;
@@ -98,14 +114,17 @@ p {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 a {
   text-decoration: none;
+  color: $ea-orange;
+  padding: 3px;
 
   &:hover {
-    text-decoration: underline;
+    background-color: $ea-orange;
+    color: $ea-black;
   }
 }
 
@@ -125,17 +144,27 @@ p > img {
   background: $ea-orange;
 }
 
+strong{
+  font-weight: bold;
+}
+
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
 
 .wrapper-masthead {
-  margin-bottom: 25px;
+  text-align: center;
+}
+
+.end {
+  border-top: 1px solid $lightGray;
 }
 
 .masthead {
+  margin-bottom: 25px;   
+  max-width: 740px;
   padding: 20px 0;
-  // border-bottom: 1px solid $ea-blue;
+  border-bottom: 1px solid $lightGray;
   text-align: center;
 
   @include mobile {
@@ -217,4 +246,11 @@ footer {
 .post_date{
   text-align: center;
   color: $lightGray;
+}
+
+small {
+  text-align: center;
+  font-size: small;
+  display: block;
+  margin: auto 0;
 }
