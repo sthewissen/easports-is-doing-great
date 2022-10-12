@@ -1,6 +1,6 @@
 ---
 date: 			2022-10-08 00:00:00
-title: 			"#7 Golds in OTW Pre-order pack"
+title: 			"#7: Golds in OTW Pre-order pack"
 subtitle: 		"EA just loves giving you golds instead, huh."
 ---
 

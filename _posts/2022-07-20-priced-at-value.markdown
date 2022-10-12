@@ -1,6 +1,6 @@
 ---
 date: 			2022-07-20 00:00:00
-title: 			"#1 Priced at its value?"
+title: 			"#1: Priced at its value?"
 subtitle: 		"Offering you FIFA 23 for the wonderful price of 6 cents!"
 ---
 

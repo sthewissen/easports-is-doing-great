@@ -1,6 +1,6 @@
 ---
 date: 			2022-08-30 00:00:00
-title: 			"#2 Off to an early start..."
+title: 			"#2: Off to an early start..."
 subtitle: 		"Today EA Sports thought it was a great day to get their mistakes counter running."
 ---
 

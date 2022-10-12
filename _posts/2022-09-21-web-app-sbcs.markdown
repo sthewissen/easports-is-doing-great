@@ -1,6 +1,6 @@
 ---
 date: 			2022-09-21 00:00:00
-title: 			"#3 Getting started with SBCs..."
+title: 			"#3: Getting started with SBCs..."
 subtitle: 		"SBCs that are uncompletable. Exactly what the Web App needed."
 ---
 

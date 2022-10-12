@@ -1,6 +1,6 @@
 ---
 date: 			2022-09-23 00:00:00
-title: 			"#4 The Lucio/Nakata situation"
+title: 			"#4: The Lucio/Nakata situation"
 subtitle: 		"Did they ever even play in those leagues?"
 ---
 

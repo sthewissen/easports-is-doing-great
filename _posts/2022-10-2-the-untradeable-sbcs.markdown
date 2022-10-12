@@ -1,6 +1,6 @@
 ---
 date: 			2022-10-2 00:00:00
-title: 			"#5 SBCs with untradeable packs"
+title: 			"#5: SBCs with untradeable packs"
 subtitle: 		"Untradeable, more like unbelievable."
 ---
 

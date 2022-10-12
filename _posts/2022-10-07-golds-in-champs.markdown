@@ -1,6 +1,6 @@
 ---
 date: 			2022-10-07 00:00:00
-title: 			"#6 Golds as Champs Rewards"
+title: 			"#6: Golds as Champs Rewards"
 subtitle: 		"The wrong items in a pack, it's a recurring theme."
 ---
 
