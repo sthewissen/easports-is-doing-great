@@ -3,8 +3,8 @@
 #
 
 # Name of your site (displayed in the header)
-name: EA Sports is going just great!
-title: EA Sports is going just great!
+name: EA Sports is doing just great!
+title: EA Sports is doing just great!
 subtitle: Their Greatest Hits
 
 # Name of the author
@@ -28,8 +28,8 @@ google_analytics: G-HGE3N71MQ6
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://www.easportsisgoinggreat.com
-enforce_ssl: https://www.easportsisgoinggreat.com
+url: https://www.easportsisdoinggreat.com
+enforce_ssl: https://www.easportsisdoinggreat.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
