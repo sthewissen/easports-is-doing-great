@@ -1,9 +1,9 @@
 ---
 date: 			2022-10-10 00:00:00
-title: 			"The odds are..."
+title: 			"#9: The odds are..."
 subtitle: 		"A new pack with some questionable odds."
 ---
 
-The new RTTK Foundations pack has some rather questionable odds. In a world where EA is already in some gambling predicaments in specific countries one can only describe these odds as questionable. There is a loan player in these packs to which most of these high odds probably apply. If you're just looking at this at first glance you would think that this is a great value pack though. Let us tell you; it isn't.
+The new RTTK Foundations Pack in the store has some rather questionable odds. There is a loan player in these packs to which most of these high odds probably apply. However, when you're just casually looking at this at first glance you would think that this is a great value pack. It mostly contains low-rated rare golds besides the loans though.
 
 <img src="/assets/images/oddsare.jpg" alt="Odds are... that these are kind of unfair."/>

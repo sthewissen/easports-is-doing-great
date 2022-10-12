@@ -96,6 +96,11 @@ h1 {
     color: inherit;
   }
   margin: 1em 0 0;
+
+
+  @include mobile {
+    font-size: 26px;
+  }
 }
 
 h2 {
@@ -180,6 +185,11 @@ strong{
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+
+  @include mobile {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .posts > .post:last-child {
