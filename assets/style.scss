@@ -24,8 +24,8 @@
 
 @font-face {
   font-family: 'Neue Plak';
-  src: url('NeuePlak-Bold.woff2') format('woff2'),
-      url('NeuePlak-Bold.woff') format('woff');
+  src: url('fonts/NeuePlak-Bold.woff2') format('woff2'),
+      url('fonts/NeuePlak-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -85,11 +85,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
 h1 {
   font-size: 30px;
   a {
     color: inherit;
   }
+  margin: 1em 0 0;
 }
 
 h2 {
