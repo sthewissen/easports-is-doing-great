@@ -14,8 +14,8 @@ author: Steven Thewissen
 description: A timeline of some of EA Sports' greatest hits since the beginning of FIFA 2023.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/nullpointers.png
-og: /images/og.png
+avatar: /images/avatar.jpg
+og: /images/meta.png
 
 # Do not generate posts/episodes in the future
 future: false
