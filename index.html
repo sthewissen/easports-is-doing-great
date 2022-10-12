@@ -1,30 +1,52 @@
 ---
 layout: default
 ---
+<div class="blurp">
+  <div>Search for your favourite episode and don't forget to subscribe to our podcast on <a href="{{ site.baseurl }}{{ site.apple-podcasts-feed }}" target="_blank">iTunes</a>, <a href="{{ site.baseurl }}{{ site.google-podcasts-feed }}" target="_blank">Google</a>, <a href="{{ site.baseurl }}{{ site.pocketcasts-podcasts-feed }}" target="_blank">PocketCast</a>, <a href="{{ site.baseurl }}{{ site.overcast-podcasts-feed }}" target="_blank">Overcast</a>, <a href="{{ site.baseurl }}{{ site.spotify-podcasts-feed }}" target="_blank">Spotify</a>, <a href="{{ site.stitcher-podcasts-feed }}" target="_blank">Stitcher</a> or wherever you get your favourite podcasts from. And don't forget to leave us <a href="https://twitter.com/{{ site.footer-links.twitter }}" target="_blank">a comment or just say hi via Twitter</a>  or <a href="mailto:{{ site.footer-links.email }}">Email</a>.</div>
+</div>
 
-<div class="row example-centered">
-    <div class="col-md-12 example-title">
-        <h2>Centered Timeline</h2>
-        <p>Medium devices (desktops, 992px and up).</p>
-    </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-        <ul class="timeline timeline-centered">
+<div class="posts">
+  {% for post in paginator.posts %}
+    <article class="post">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h1>{{ post.title }}</h1>
 
-    {% assign steps = site.steps | sort: 'date' %}
-    {% for step in steps %}
-    <li class="timeline-item">
-        <div class="timeline-info">
-            <span>{{ step.date | date: '%m/%Y' }}{% if step.enddate %} - {{ step.enddate | date: '%m/%Y' }}{% endif %}</span>
+        <div>
+          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
         </div>
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <h3 class="timeline-title">{{step.title}}</h3>
-            <p>
-                {{step.content}}
-            </p>
-        </div>
-    </li>
+      </a>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+
+  <!-- pagination -->
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    {% else %}
+      <span>&laquo; Prev</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="webjeda">{{ page }}</span>
+      {% elsif page == 1 %}
+        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
     {% endfor %}
-        </ul>
-    </div> 
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    {% else %}
+      <span>Next &raquo;</span>
+    {% endif %}
+  </div>
+  {% endif %}
 </div>
