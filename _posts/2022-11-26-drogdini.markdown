@@ -6,5 +6,5 @@ subtitle: 		"That's not Didier Drogba, is it?"
 
 With the World Cup in full swing we saw the release of World Cup Icons. One of those was Didier Drogba. The lucky few that managed to pack this card were in for a strange surprise when they started using him though. In-game he looks exactly like Paolo Maldini!
 
-<img src="/assets/images/drogdini.png" alt="That's not Didier Drogba!"/>
+<img src="/assets/images/drogdini.jpg" alt="That's not Didier Drogba!"/>
 <small>Image credit: <a href="https://twitter.com/FansdeFUT/status/1596435725263609857" target="_blank">Fans de FUT</a></small>

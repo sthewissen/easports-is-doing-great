@@ -6,4 +6,4 @@ subtitle: 		"Not the right badge that is..."
 
 Not much to say here. Wrong badge in an eSports bundle. Five people will get compensated.
 
-<img src="/assets/images/citybadge.jpg" alt=""/>
+<img src="/assets/images/mancitybadge.jpg" alt=""/>
